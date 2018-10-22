@@ -1,0 +1,16 @@
+<h2>All articles</h2>
+
+<% if articles.any? %>
+  <div id="articles">
+    <% articles.each do |article| %>
+      <div class="article">
+        <h2><%= article.title %></h2>
+        <p><%= article.content %></p>
+        <p><%= article.author %></p>
+        <p><%= article.category %></p>
+      </div>
+    <% end %>
+  </div>
+<% else %>
+  <p class="placeholder">There are no articles yet.</p>
+<% end %>

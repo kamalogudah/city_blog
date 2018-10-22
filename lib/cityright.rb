@@ -1,0 +1,2 @@
+module Cityright
+end

@@ -1,0 +1,3 @@
+project=cityright
+test=minitest
+template=erb
