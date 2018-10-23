@@ -4,7 +4,7 @@ gem 'rake'
 gem 'hanami',       '~> 1.2'
 gem 'hanami-model', '~> 1.2'
 
-gem 'sqlite3'
+gem 'pg'
 
 group :development do
   # Code reloading
@@ -16,6 +16,7 @@ end
 group :test, :development do
   gem 'dotenv', '~> 2.0'
   gem 'pry-byebug'
+  gem 'sqlite3'
 end
 
 group :test do
