@@ -4,7 +4,7 @@ gem 'rake'
 gem 'hanami',       '~> 1.2'
 gem 'hanami-model', '~> 1.2'
 
-gem 'pg'
+gem 'pg', group: :production
 
 group :development do
   # Code reloading
